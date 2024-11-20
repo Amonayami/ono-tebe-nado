@@ -1,1 +1,106 @@
-/* место для вашего кода */
+/* Общие стили */
+
+.body {
+  font-family: 'Raleway';
+  max-width: 1100px;
+  max-height: 3028px;
+}
+
+/* Стили для header */
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 148px 1fr;
+}
+
+.header__menu {
+
+}
+
+.header__links-list {
+
+}
+
+.header__links-list-item_no-bullet {
+
+}
+
+.header__logo {
+
+}
+
+.logo-black {
+
+}
+
+.address {
+
+}
+
+/* Стили для main */
+
+.cover {
+  height: 757px;
+  
+}
+
+.lots {
+  height: 692px;
+}
+
+.lots__card-list {
+
+}
+
+.card {
+  width: 334px;
+  height: 100%;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 595px;
+}
+
+.about__logo {
+  display: flex;
+  justify-content: center;    
+  align-items: center;
+  overflow: hidden;           /* Скрыть части изображения за пределами круга */
+  background-color: black;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+
+}
+
+.about__logo-image {
+  width: 148px;
+  height: 114px;
+  
+}
+
+/* Стили для footer */
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 98px;
+}
+
+.footer__menu {
+  text-align: center;
+}
+
+.footer__social-list {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.footer__social-icon {
+  width: 48px;
+  height: 48px;
+}
+
